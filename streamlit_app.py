@@ -16,6 +16,9 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 st.title("longnk-testing");
 
+if(st.button('cal')):
+    st.subheader("longnk- click button")
+
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
