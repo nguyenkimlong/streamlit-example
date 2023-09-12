@@ -16,7 +16,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 st.title("longnk-testing");
 
-if(st.button('cal')):
+if st.button('cal'):
     st.subheader("longnk- click button")
 
 with st.echo(code_location='below'):
